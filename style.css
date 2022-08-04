@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(hsl(255, 87%, 9%), hsl(281, 95%, 16%));
+    font-family: 'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: larger;
+}
+*::selection{
+    background-color: cyan;
+}
+strong {
+    font-weight: 100;
+    background-color: hsl(0, 0%, 28%);
+    padding: 5px;
+    border-radius: 4px;
+    color: rgb(185, 185, 185);
+}
+h1 {
+    color: hsl(290, 90%, 48%);
+}
+a {
+    text-decoration: none;
+    color: black;
+    background-color: hsl(182, 98%, 51%);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+a:hover {
+    background-color: hsl(182, 98%, 80%);
+    box-shadow: 0 0 3px white;
+}
+.boutons{
+    margin-top: 25px;
+}
+.container {
+    background-color: hsla(188, 63%, 80%, 0.5);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px white;
+    margin-top: 10px;
+    font-size: medium;
+}
