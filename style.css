@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(hsl(255, 87%, 9%), hsl(281, 95%, 16%));
-    font-family: 'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic light', sans-serif;
     height: 100vh;
     margin: 0;
     display: flex;
